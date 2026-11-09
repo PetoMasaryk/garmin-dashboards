@@ -8,7 +8,7 @@ Quickly jump to the project subfolders in this repository:
 
 | Data Field / Dashboard | Target Device | Navigation Link |
 | :--- | :--- | :--- |
-| **Edge 530 Custom Dashboard** | Garmin Edge 530 | [📁 Edge 530 Dashboard](./Edge%20530%20Custom%20Dashboard) |
+| **Edge 530 Custom Dashboard** | Garmin Edge 530 | [📁 Edge 530 Dashboard](./Edge530CustomDashboard) |
 | **3s Power Data Field** | Garmin Edge 850 / Multi-Device | [📁 Power Data Field](./Power%20Data%20Field) |
 | **HR Zone Data Field** | Garmin Edge 850 / Multi-Device | [📁 HR Data Field](./HR%20Data%20Field) |
 
