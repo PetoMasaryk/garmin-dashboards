@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="1" lineNum="30" parent="globals/PowerZoneView" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\Edge 850\\gen\\006-B4634-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435469" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="3" lineNum="14" parent="globals/PowerZoneApp" pc="268435489" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="4" lineNum="216" parent="globals/PowerZoneView" pc="268435501" symbol="getPowerZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="4" lineNum="217" parent="globals/PowerZoneView" pc="268435503" symbol="getPowerZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="130" parent="globals/PowerZoneView" pc="268435520" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="132" parent="globals/PowerZoneView" pc="268435522" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="133" parent="globals/PowerZoneView" pc="268435539" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="135" parent="globals/PowerZoneView" pc="268435547" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="137" parent="globals/PowerZoneView" pc="268435563" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="138" parent="globals/PowerZoneView" pc="268435583" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="139" parent="globals/PowerZoneView" pc="268435601" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="143" parent="globals/PowerZoneView" pc="268435620" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="144" parent="globals/PowerZoneView" pc="268435628" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="147" parent="globals/PowerZoneView" pc="268435636" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="148" parent="globals/PowerZoneView" pc="268435644" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="149" parent="globals/PowerZoneView" pc="268435652" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="150" parent="globals/PowerZoneView" pc="268435660" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="152" parent="globals/PowerZoneView" pc="268435672" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="5" lineNum="153" parent="globals/PowerZoneView" pc="268435683" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="198" parent="globals/PowerZoneView" pc="268435696" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="200" parent="globals/PowerZoneView" pc="268435699" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="201" parent="globals/PowerZoneView" pc="268435715" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="204" parent="globals/PowerZoneView" pc="268435717" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="206" parent="globals/PowerZoneView" pc="268435738" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="206" parent="globals/PowerZoneView" pc="268435749" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="207" parent="globals/PowerZoneView" pc="268435751" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="207" parent="globals/PowerZoneView" pc="268435762" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="208" parent="globals/PowerZoneView" pc="268435765" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="208" parent="globals/PowerZoneView" pc="268435776" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="209" parent="globals/PowerZoneView" pc="268435779" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="209" parent="globals/PowerZoneView" pc="268435790" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="210" parent="globals/PowerZoneView" pc="268435793" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="210" parent="globals/PowerZoneView" pc="268435804" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="211" parent="globals/PowerZoneView" pc="268435807" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="211" parent="globals/PowerZoneView" pc="268435818" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="6" lineNum="213" parent="globals/PowerZoneView" pc="268435821" symbol="getPowerZoneIndex"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="7" lineNum="220" parent="globals/PowerZoneView" pc="268435824" symbol="getPowerZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="7" lineNum="221" parent="globals/PowerZoneView" pc="268435826" symbol="getPowerZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="162" parent="globals/PowerZoneView" pc="268435843" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="165" parent="globals/PowerZoneView" pc="268435845" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="167" parent="globals/PowerZoneView" pc="268435856" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="171" parent="globals/PowerZoneView" pc="268435883" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="175" parent="globals/PowerZoneView" pc="268435898" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="177" parent="globals/PowerZoneView" pc="268435911" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="180" parent="globals/PowerZoneView" pc="268435926" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="183" parent="globals/PowerZoneView" pc="268435944" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="185" parent="globals/PowerZoneView" pc="268435954" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="8" lineNum="189" parent="globals/PowerZoneView" pc="268435997" symbol="updateRollingPower"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="97" parent="globals/PowerZoneView" pc="268436006" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="99" parent="globals/PowerZoneView" pc="268436009" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="101" parent="globals/PowerZoneView" pc="268436021" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="103" parent="globals/PowerZoneView" pc="268436031" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="104" parent="globals/PowerZoneView" pc="268436043" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="105" parent="globals/PowerZoneView" pc="268436051" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="106" parent="globals/PowerZoneView" pc="268436059" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="108" parent="globals/PowerZoneView" pc="268436067" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="109" parent="globals/PowerZoneView" pc="268436075" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="110" parent="globals/PowerZoneView" pc="268436083" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="111" parent="globals/PowerZoneView" pc="268436091" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="112" parent="globals/PowerZoneView" pc="268436102" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="115" parent="globals/PowerZoneView" pc="268436114" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="119" parent="globals/PowerZoneView" pc="268436130" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="9" lineNum="120" parent="globals/PowerZoneView" pc="268436143" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="10" lineNum="229" parent="globals/PowerZoneView" pc="268436153" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="10" lineNum="231" parent="globals/PowerZoneView" pc="268436155" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="10" lineNum="234" parent="globals/PowerZoneView" pc="268436177" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="10" lineNum="237" parent="globals/PowerZoneView" pc="268436179" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="245" parent="globals/PowerZoneView" pc="268436185" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="247" parent="globals/PowerZoneView" pc="268436188" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="248" parent="globals/PowerZoneView" pc="268436197" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="250" parent="globals/PowerZoneView" pc="268436206" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="251" parent="globals/PowerZoneView" pc="268436213" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="253" parent="globals/PowerZoneView" pc="268436225" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="254" parent="globals/PowerZoneView" pc="268436239" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="256" parent="globals/PowerZoneView" pc="268436247" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="263" parent="globals/PowerZoneView" pc="268436261" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="264" parent="globals/PowerZoneView" pc="268436265" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="267" parent="globals/PowerZoneView" pc="268436269" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="277" parent="globals/PowerZoneView" pc="268436418" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="286" parent="globals/PowerZoneView" pc="268436444" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="288" parent="globals/PowerZoneView" pc="268436473" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="297" parent="globals/PowerZoneView" pc="268436502" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="298" parent="globals/PowerZoneView" pc="268436510" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="303" parent="globals/PowerZoneView" pc="268436525" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="11" lineNum="307" parent="globals/PowerZoneView" pc="268436538" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="12" lineNum="20" parent="globals/PowerZoneApp" pc="268436585" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="12" lineNum="21" parent="globals/PowerZoneApp" pc="268436587" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="13" lineNum="16" parent="globals/PowerZoneApp" pc="268436613" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\source\\PowerZoneView.mc" id="13" lineNum="17" parent="globals/PowerZoneApp" pc="268436615" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="11" symbol="_hasPowerData"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="21" method="true" symbol="getPowerZoneIndex"/>
+        <entry id="8388647" module="true" symbol="UserProfile"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="6" object="true" symbol="PowerZoneView"/>
+        <entry id="7" symbol="ZONE_COLORS"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry id="5" object="true" symbol="PowerZoneApp"/>
+        <entry field="true" id="24" symbol="launcher_icon"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="12" symbol="_powerSamples"/>
+        <entry field="true" id="16" symbol="_zoneColor"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="15" symbol="_samplesUsed"/>
+        <entry id="23" method="true" symbol="updateRollingPower"/>
+        <entry field="true" id="13" symbol="_powerSum"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="10" symbol="_ftp"/>
+        <entry id="19" method="true" symbol="getContrastTextColor"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="17" symbol="_zoneIndex"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="22" method="true" symbol="getPowerZoneName"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8" symbol="ZONE_NAMES"/>
+        <entry field="true" id="18" symbol="_zoneName"/>
+        <entry field="true" id="14" symbol="_sampleIndex"/>
+        <entry field="true" id="9" symbol="_displayPower"/>
+        <entry id="20" method="true" symbol="getPowerZoneColor"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="25" symbol="PowerZoneField"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435519" name="power" stackId="1" startPc="268435501"/>
+        <entry arg="true" endPc="268435695" name="info" stackId="1" startPc="268435520"/>
+        <entry arg="true" endPc="268435823" name="power" stackId="1" startPc="268435696"/>
+        <entry endPc="268435823" name="ratio" stackId="2" startPc="268435699"/>
+        <entry arg="true" endPc="268435842" name="power" stackId="1" startPc="268435824"/>
+        <entry arg="true" endPc="268436005" name="currentPower" stackId="1" startPc="268435843"/>
+        <entry endPc="268436151" name="ftp" stackId="1" startPc="268436009"/>
+        <entry arg="true" endPc="268436184" name="bgColor" stackId="1" startPc="268436153"/>
+        <entry arg="true" endPc="268436584" name="dc" stackId="1" startPc="268436185"/>
+        <entry endPc="268436583" name="w" stackId="2" startPc="268436188"/>
+        <entry endPc="268436583" name="h" stackId="3" startPc="268436188"/>
+        <entry endPc="268436583" name="bg" stackId="4" startPc="268436188"/>
+        <entry endPc="268436583" name="fg" stackId="5" startPc="268436188"/>
+        <entry endPc="268436583" name="lx" stackId="6" startPc="268436188"/>
+        <entry endPc="268436583" name="ly" stackId="7" startPc="268436188"/>
+        <entry endPc="268436583" name="powerText" stackId="8" startPc="268436188"/>
+        <entry endPc="268436583" name="numberWidth" stackId="9" startPc="268436510"/>
+        <entry endPc="268436583" name="numberHeight" stackId="10" startPc="268436510"/>
+    </localVars>
+    <deviceInfo deviceVersion="9db5420c33d6cadc5276a6ed767d321da28f1ebb" partNumber="006-B4634-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PowerZoneField"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="launcher_icon"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/PowerZoneView" offset="107" parentId="globals" symbolId="PowerZoneView" type="class"/>
+        <dataEntry label="globals/Rez" offset="322" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/PowerZoneApp" offset="366" parentId="globals" symbolId="PowerZoneApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="419" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="454" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="PowerZoneView" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435488" name="&lt;init&gt;" parent="Rez" startPc="268435469">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="PowerZoneApp" startPc="268435489">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435519" name="getPowerZoneColor" parent="PowerZoneView" startPc="268435501">
+            <param id="power"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435695" name="compute" parent="PowerZoneView" startPc="268435520">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435823" name="getPowerZoneIndex" parent="PowerZoneView" startPc="268435696">
+            <param id="power"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435842" name="getPowerZoneName" parent="PowerZoneView" startPc="268435824">
+            <param id="power"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436005" name="updateRollingPower" parent="PowerZoneView" startPc="268435843">
+            <param id="currentPower"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436152" name="initialize" parent="PowerZoneView" startPc="268436006">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436184" name="getContrastTextColor" parent="PowerZoneView" startPc="268436153">
+            <param id="bgColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436584" name="onUpdate" parent="PowerZoneView" startPc="268436185">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436612" name="getInitialView" parent="PowerZoneApp" startPc="268436585">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436627" name="initialize" parent="PowerZoneApp" startPc="268436613">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

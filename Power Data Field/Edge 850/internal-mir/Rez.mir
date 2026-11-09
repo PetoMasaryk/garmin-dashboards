@@ -1,0 +1,1474 @@
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 2; @symbol_usingdef<0> = [Toybox,2,6,12]; @symbol_usingdef<1> = [WatchUi,2,13,20]; ]
+using Toybox.WatchUi;
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [WatchUi,3,13,20]; @symbol_usingAlias = [Ui,3,24,26]; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [Graphics,4,13,21]; ]
+using Toybox.Graphics;
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [Graphics,5,13,21]; @symbol_usingAlias = [Gfx,5,25,28]; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 7; @symbol_moduledef = [Rez,7,7,10]; ]
+module Rez {
+    [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 8; @symbol_moduledef = [Drawables,8,11,20]; ]
+    module Drawables {
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; @symbol_vardef = [launcher_icon,9,27,40]; @symbol_type<0> = [ResourceId,9,44,54]; ]
+        var launcher_icon as ResourceId;
+    }
+    [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 12; @symbol_moduledef = [Strings,12,11,18]; ]
+    module Strings {
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 12; ]
+        <init> {
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 13; @position = 27; initialized = true; @symbol_vardef = [PowerZoneField,13,27,41]; @symbol_type<0> = [ResourceId,13,45,55]; ]
+        var PowerZoneField as ResourceId;
+    }
+    [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 16; @symbol_moduledef = [Styles,16,11,17]; ]
+    module Styles {
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 16; ]
+        <init> {
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 17; @symbol_moduledef = [prompt_font_enhanced_readability__body_with_title,17,15,64]; ]
+        module prompt_font_enhanced_readability__body_with_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 17; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 18; @position = 18; @symbol_constdef = [exclude,18,18,25]; @symbol_type<0> = [Boolean,18,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 21; @symbol_moduledef = [system_size__menu_header,21,15,39]; ]
+        module system_size__menu_header {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 21; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 22; @position = 18; @symbol_constdef = [height,22,18,24]; @symbol_type<0> = [Number,22,28,34]; ]
+            const height as Number = 0;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 25; @symbol_moduledef = [system_loc__hint_button_left_bottom,25,15,50]; ]
+        module system_loc__hint_button_left_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 25; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 26; @position = 18; @symbol_constdef = [exclude,26,18,25]; @symbol_type<0> = [Boolean,26,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 29; @symbol_moduledef = [prompt_font_enhanced_readability__body_no_title,29,15,62]; ]
+        module prompt_font_enhanced_readability__body_no_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 29; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 30; @position = 18; @symbol_constdef = [exclude,30,18,25]; @symbol_type<0> = [Boolean,30,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 33; @symbol_moduledef = [prompt_loc__body_no_title,33,15,40]; ]
+        module prompt_loc__body_no_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 33; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 34; @position = 18; @symbol_constdef = [x,34,18,19]; @symbol_type<0> = [Number,34,23,29]; ]
+            const x as Number = 2;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 35; @position = 18; @symbol_constdef = [y,35,18,19]; @symbol_type<0> = [Number,35,23,29]; ]
+            const y as Number = 2;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 38; @symbol_moduledef = [system_icon_dark__about,38,15,38]; ]
+        module system_icon_dark__about {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 38; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 39; @position = 18; @symbol_constdef = [filename,39,18,26]; @symbol_type<0> = [String,39,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__about.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 40; @position = 18; @symbol_constdef = [disableTransparency,40,18,37]; @symbol_type<0> = [Boolean,40,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 41; @position = 18; @symbol_constdef = [dithering,41,18,27]; @symbol_type<0> = [String,41,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 42; @position = 18; @symbol_constdef = [automaticPalette,42,18,34]; @symbol_type<0> = [Boolean,42,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 45; @symbol_moduledef = [system_icon_light__question,45,15,42]; ]
+        module system_icon_light__question {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 45; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 46; @position = 18; @symbol_constdef = [filename,46,18,26]; @symbol_type<0> = [String,46,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__question.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 47; @position = 18; @symbol_constdef = [disableTransparency,47,18,37]; @symbol_type<0> = [Boolean,47,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 48; @position = 18; @symbol_constdef = [dithering,48,18,27]; @symbol_type<0> = [String,48,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 49; @position = 18; @symbol_constdef = [automaticPalette,49,18,34]; @symbol_type<0> = [Boolean,49,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 52; @symbol_moduledef = [system_loc__hint_button_left_top,52,15,47]; ]
+        module system_loc__hint_button_left_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 52; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 53; @position = 18; @symbol_constdef = [exclude,53,18,25]; @symbol_type<0> = [Boolean,53,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 56; @symbol_moduledef = [prompt_font__title,56,15,33]; ]
+        module prompt_font__title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 56; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 57; @position = 18; @symbol_constdef = [exclude,57,18,25]; @symbol_type<0> = [Boolean,57,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 60; @symbol_moduledef = [system_icon_dark__discard,60,15,40]; ]
+        module system_icon_dark__discard {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 60; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 61; @position = 18; @symbol_constdef = [filename,61,18,26]; @symbol_type<0> = [String,61,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__discard.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 62; @position = 18; @symbol_constdef = [disableTransparency,62,18,37]; @symbol_type<0> = [Boolean,62,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 63; @position = 18; @symbol_constdef = [dithering,63,18,27]; @symbol_type<0> = [String,63,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 64; @position = 18; @symbol_constdef = [automaticPalette,64,18,34]; @symbol_type<0> = [Boolean,64,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 67; @symbol_moduledef = [system_size__menu_item,67,15,37]; ]
+        module system_size__menu_item {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 67; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 68; @position = 18; @symbol_constdef = [width,68,18,23]; @symbol_type<0> = [Number,68,27,33]; ]
+            const width as Number = 420;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 69; @position = 18; @symbol_constdef = [height,69,18,24]; @symbol_type<0> = [Number,69,28,34]; ]
+            const height as Number = 112;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 72; @symbol_moduledef = [system_color_dark__text,72,15,38]; ]
+        module system_color_dark__text {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 72; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 74 18 ]
+                symbol [ Graphics %tmp.1 74 31 39 ];
+                %tmp.1 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.2 74 40 57 ];
+                %tmp.2 = getv %tmp.1 :COLOR_TRANSPARENT;
+                putv self :background %tmp.2;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 73; @position = 18; @symbol_constdef = [color,73,18,23]; @symbol_type<0> = [Number,73,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 74; @position = 18; @symbol_constdef = [background,74,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 77; @symbol_moduledef = [system_icon_destructive__discard,77,15,47]; ]
+        module system_icon_destructive__discard {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 77; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 78; @position = 18; @symbol_constdef = [filename,78,18,26]; @symbol_type<0> = [String,78,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_destructive__discard.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 79; @position = 18; @symbol_constdef = [disableTransparency,79,18,37]; @symbol_type<0> = [Boolean,79,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 80; @position = 18; @symbol_constdef = [dithering,80,18,27]; @symbol_type<0> = [String,80,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 81; @position = 18; @symbol_constdef = [automaticPalette,81,18,34]; @symbol_type<0> = [Boolean,81,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 84; @symbol_moduledef = [system_icon_dark__hint_action_menu,84,15,49]; ]
+        module system_icon_dark__hint_action_menu {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 84; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 85; @position = 18; @symbol_constdef = [exclude,85,18,25]; @symbol_type<0> = [Boolean,85,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 88; @symbol_moduledef = [prompt_size__title,88,15,33]; ]
+        module prompt_size__title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 88; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 89; @position = 18; @symbol_constdef = [exclude,89,18,25]; @symbol_type<0> = [Boolean,89,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 92; @symbol_moduledef = [confirmation_font__body,92,15,38]; ]
+        module confirmation_font__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 92; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 93 18 ]
+                symbol [ Graphics %tmp.3 93 34 42 ];
+                %tmp.3 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.4 93 43 62 ];
+                %tmp.4 = getv %tmp.3 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.5 93 63 71 ];
+                %tmp.5 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.6 93 72 92 ];
+                %tmp.6 = getv %tmp.5 :TEXT_JUSTIFY_VCENTER;
+                %tmp.7 = bitor %tmp.4 %tmp.6;
+                putv self :justification %tmp.7;
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 94 18 ]
+                symbol [ Graphics %tmp.8 94 25 33 ];
+                %tmp.8 = getm $.Toybox.Graphics;
+                symbol [ FONT_MEDIUM %tmp.9 94 34 45 ];
+                %tmp.9 = getv %tmp.8 :FONT_MEDIUM;
+                putv self :font %tmp.9;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 93; @position = 18; @symbol_constdef = [justification,93,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 94; @position = 18; @symbol_constdef = [font,94,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 97; @symbol_moduledef = [system_color_dark__background,97,15,44]; ]
+        module system_color_dark__background {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 97; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 98; @position = 18; @symbol_constdef = [color,98,18,23]; @symbol_type<0> = [Number,98,27,33]; ]
+            const color as Number = 0x191919;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 99; @position = 18; @symbol_constdef = [background,99,18,28]; @symbol_type<0> = [Number,99,32,38]; ]
+            const background as Number = 0x191919;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 102; @symbol_moduledef = [system_icon_destructive__hint_button_left_top,102,15,60]; ]
+        module system_icon_destructive__hint_button_left_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 102; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 103; @position = 18; @symbol_constdef = [exclude,103,18,25]; @symbol_type<0> = [Boolean,103,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 106; @symbol_moduledef = [system_size__launch_icon,106,15,39]; ]
+        module system_size__launch_icon {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 106; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 107; @position = 18; @symbol_constdef = [scaleX,107,18,24]; @symbol_type<0> = [Number,107,28,34]; ]
+            const scaleX as Number = 56;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 108; @position = 18; @symbol_constdef = [scaleY,108,18,24]; @symbol_type<0> = [Number,108,28,34]; ]
+            const scaleY as Number = 56;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 109; @position = 18; @symbol_constdef = [scaleRelativeTo,109,18,33]; @symbol_type<0> = [String,109,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 112; @symbol_moduledef = [confirmation_input__confirm,112,15,42]; ]
+        module confirmation_input__confirm {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 112; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 113 18 ]
+                symbol [ WatchUi %tmp.10 113 27 34 ];
+                %tmp.10 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.11 113 35 44 ];
+                %tmp.11 = getv %tmp.10 :KEY_ENTER;
+                putv self :button %tmp.11;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 113; @position = 18; @symbol_constdef = [button,113,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 116; @symbol_moduledef = [prompt_font__body_with_title,116,15,43]; ]
+        module prompt_font__body_with_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 116; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 117 18 ]
+                symbol [ Graphics %tmp.12 117 34 42 ];
+                %tmp.12 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.13 117 43 62 ];
+                %tmp.13 = getv %tmp.12 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.14 117 63 71 ];
+                %tmp.14 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.15 117 72 92 ];
+                %tmp.15 = getv %tmp.14 :TEXT_JUSTIFY_VCENTER;
+                %tmp.16 = bitor %tmp.13 %tmp.15;
+                putv self :justification %tmp.16;
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 118 18 ]
+                symbol [ Graphics %tmp.17 118 25 33 ];
+                %tmp.17 = getm $.Toybox.Graphics;
+                symbol [ FONT_GLANCE_NUMBER %tmp.18 118 34 52 ];
+                %tmp.18 = getv %tmp.17 :FONT_GLANCE_NUMBER;
+                putv self :font %tmp.18;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 117; @position = 18; @symbol_constdef = [justification,117,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 118; @position = 18; @symbol_constdef = [font,118,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 121; @symbol_moduledef = [confirmation_loc__body,121,15,37]; ]
+        module confirmation_loc__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 121; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 122; @position = 18; @symbol_constdef = [x,122,18,19]; @symbol_type<0> = [Number,122,23,29]; ]
+            const x as Number = 18;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 123; @position = 18; @symbol_constdef = [y,123,18,19]; @symbol_type<0> = [Number,123,23,29]; ]
+            const y as Number = 14;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 126; @symbol_moduledef = [system_icon_destructive__hint_button_left_bottom,126,15,63]; ]
+        module system_icon_destructive__hint_button_left_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 126; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 127; @position = 18; @symbol_constdef = [exclude,127,18,25]; @symbol_type<0> = [Boolean,127,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 130; @symbol_moduledef = [prompt_color_dark__background,130,15,44]; ]
+        module prompt_color_dark__background {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 130; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 131; @position = 18; @symbol_constdef = [color,131,18,23]; @symbol_type<0> = [Number,131,27,33]; ]
+            const color as Number = 0x191919;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 132; @position = 18; @symbol_constdef = [background,132,18,28]; @symbol_type<0> = [Number,132,32,38]; ]
+            const background as Number = 0x191919;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 135; @symbol_moduledef = [system_icon_destructive__hint_action_menu,135,15,56]; ]
+        module system_icon_destructive__hint_action_menu {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 135; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 136; @position = 18; @symbol_constdef = [exclude,136,18,25]; @symbol_type<0> = [Boolean,136,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 139; @symbol_moduledef = [system_loc__hint_action_menu,139,15,43]; ]
+        module system_loc__hint_action_menu {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 139; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 140; @position = 18; @symbol_constdef = [exclude,140,18,25]; @symbol_type<0> = [Boolean,140,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 143; @symbol_moduledef = [confirmation_icon__hint_confirm,143,15,46]; ]
+        module confirmation_icon__hint_confirm {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 143; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 144; @position = 18; @symbol_constdef = [filename,144,18,26]; @symbol_type<0> = [String,144,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 145; @position = 18; @symbol_constdef = [disableTransparency,145,18,37]; @symbol_type<0> = [Boolean,145,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 146; @position = 18; @symbol_constdef = [dithering,146,18,27]; @symbol_type<0> = [String,146,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 147; @position = 18; @symbol_constdef = [automaticPalette,147,18,34]; @symbol_type<0> = [Boolean,147,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 150; @symbol_moduledef = [system_loc__hint_button_left_middle,150,15,50]; ]
+        module system_loc__hint_button_left_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 150; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 151; @position = 18; @symbol_constdef = [exclude,151,18,25]; @symbol_type<0> = [Boolean,151,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 154; @symbol_moduledef = [prompt_size__body_no_title,154,15,41]; ]
+        module prompt_size__body_no_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 154; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 155; @position = 18; @symbol_constdef = [width,155,18,23]; @symbol_type<0> = [Number,155,27,33]; ]
+            const width as Number = 412;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 156; @position = 18; @symbol_constdef = [height,156,18,24]; @symbol_type<0> = [Number,156,28,34]; ]
+            const height as Number = 511;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 159; @symbol_moduledef = [system_icon_light__hint_button_left_top,159,15,54]; ]
+        module system_icon_light__hint_button_left_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 159; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 160; @position = 18; @symbol_constdef = [exclude,160,18,25]; @symbol_type<0> = [Boolean,160,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 163; @symbol_moduledef = [prompt_color_light__background,163,15,45]; ]
+        module prompt_color_light__background {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 163; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 164; @position = 18; @symbol_constdef = [color,164,18,23]; @symbol_type<0> = [Number,164,27,33]; ]
+            const color as Number = 0xDCDCDC;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 165; @position = 18; @symbol_constdef = [background,165,18,28]; @symbol_type<0> = [Number,165,32,38]; ]
+            const background as Number = 0xDCDCDC;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 168; @symbol_moduledef = [confirmation_input__delete,168,15,41]; ]
+        module confirmation_input__delete {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 168; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 169 18 ]
+                symbol [ WatchUi %tmp.19 169 27 34 ];
+                %tmp.19 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ENTER %tmp.20 169 35 44 ];
+                %tmp.20 = getv %tmp.19 :KEY_ENTER;
+                putv self :button %tmp.20;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 169; @position = 18; @symbol_constdef = [button,169,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 172; @symbol_moduledef = [system_icon_dark__hint_button_left_top,172,15,53]; ]
+        module system_icon_dark__hint_button_left_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 172; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 173; @position = 18; @symbol_constdef = [exclude,173,18,25]; @symbol_type<0> = [Boolean,173,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 176; @symbol_moduledef = [system_input__action_menu,176,15,40]; ]
+        module system_input__action_menu {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 176; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 177 18 ]
+                symbol [ WatchUi %tmp.21 177 27 34 ];
+                %tmp.21 = getm $.Toybox.WatchUi;
+                symbol [ KEY_MENU %tmp.22 177 35 43 ];
+                %tmp.22 = getv %tmp.21 :KEY_MENU;
+                putv self :button %tmp.22;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 177; @position = 18; @symbol_constdef = [button,177,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 180; @symbol_moduledef = [system_icon_light__save,180,15,38]; ]
+        module system_icon_light__save {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 180; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 181; @position = 18; @symbol_constdef = [filename,181,18,26]; @symbol_type<0> = [String,181,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__save.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 182; @position = 18; @symbol_constdef = [disableTransparency,182,18,37]; @symbol_type<0> = [Boolean,182,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 183; @position = 18; @symbol_constdef = [dithering,183,18,27]; @symbol_type<0> = [String,183,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 184; @position = 18; @symbol_constdef = [automaticPalette,184,18,34]; @symbol_type<0> = [Boolean,184,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 187; @symbol_moduledef = [prompt_color_light__body,187,15,39]; ]
+        module prompt_color_light__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 187; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 189 18 ]
+                symbol [ Graphics %tmp.23 189 31 39 ];
+                %tmp.23 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.24 189 40 57 ];
+                %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
+                putv self :background %tmp.24;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 188; @position = 18; @symbol_constdef = [color,188,18,23]; @symbol_type<0> = [Number,188,27,33]; ]
+            const color as Number = 0x313253;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 189; @position = 18; @symbol_constdef = [background,189,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 192; @symbol_moduledef = [system_loc__subwindow,192,15,36]; ]
+        module system_loc__subwindow {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 192; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 193; @position = 18; @symbol_constdef = [exclude,193,18,25]; @symbol_type<0> = [Boolean,193,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 196; @symbol_moduledef = [system_icon_light__warning,196,15,41]; ]
+        module system_icon_light__warning {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 196; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 197; @position = 18; @symbol_constdef = [filename,197,18,26]; @symbol_type<0> = [String,197,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__warning.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 198; @position = 18; @symbol_constdef = [disableTransparency,198,18,37]; @symbol_type<0> = [Boolean,198,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 199; @position = 18; @symbol_constdef = [dithering,199,18,27]; @symbol_type<0> = [String,199,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 200; @position = 18; @symbol_constdef = [automaticPalette,200,18,34]; @symbol_type<0> = [Boolean,200,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 203; @symbol_moduledef = [confirmation_color_light__body,203,15,45]; ]
+        module confirmation_color_light__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 203; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 205 18 ]
+                symbol [ Graphics %tmp.25 205 31 39 ];
+                %tmp.25 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.26 205 40 57 ];
+                %tmp.26 = getv %tmp.25 :COLOR_TRANSPARENT;
+                putv self :background %tmp.26;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 204; @position = 18; @symbol_constdef = [color,204,18,23]; @symbol_type<0> = [Number,204,27,33]; ]
+            const color as Number = 0x191919;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 205; @position = 18; @symbol_constdef = [background,205,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 208; @symbol_moduledef = [confirmation_icon_light__hint_keep,208,15,49]; ]
+        module confirmation_icon_light__hint_keep {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 208; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 209; @position = 18; @symbol_constdef = [filename,209,18,26]; @symbol_type<0> = [String,209,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_back.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 210; @position = 18; @symbol_constdef = [disableTransparency,210,18,37]; @symbol_type<0> = [Boolean,210,41,48]; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 211; @position = 18; @symbol_constdef = [dithering,211,18,27]; @symbol_type<0> = [String,211,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 212; @position = 18; @symbol_constdef = [automaticPalette,212,18,34]; @symbol_type<0> = [Boolean,212,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 215; @symbol_moduledef = [activity_color_light__background,215,15,47]; ]
+        module activity_color_light__background {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 215; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 216; @position = 18; @symbol_constdef = [color,216,18,23]; @symbol_type<0> = [Number,216,27,33]; ]
+            const color as Number = 0xDCDCDC;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 217; @position = 18; @symbol_constdef = [background,217,18,28]; @symbol_type<0> = [Number,217,32,38]; ]
+            const background as Number = 0xDCDCDC;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 220; @symbol_moduledef = [system_icon_positive__hint_button_right_top,220,15,58]; ]
+        module system_icon_positive__hint_button_right_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 220; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 221; @position = 18; @symbol_constdef = [exclude,221,18,25]; @symbol_type<0> = [Boolean,221,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 224; @symbol_moduledef = [system_size__screen,224,15,34]; ]
+        module system_size__screen {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 224; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 225; @position = 18; @symbol_constdef = [width,225,18,23]; @symbol_type<0> = [Number,225,27,33]; ]
+            const width as Number = 420;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 226; @position = 18; @symbol_constdef = [height,226,18,24]; @symbol_type<0> = [Number,226,28,34]; ]
+            const height as Number = 600;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 229; @symbol_moduledef = [system_icon_destructive__hint_button_right_bottom,229,15,64]; ]
+        module system_icon_destructive__hint_button_right_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 229; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 230; @position = 18; @symbol_constdef = [exclude,230,18,25]; @symbol_type<0> = [Boolean,230,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 233; @symbol_moduledef = [system_color_light__background,233,15,45]; ]
+        module system_color_light__background {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 233; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 234; @position = 18; @symbol_constdef = [color,234,18,23]; @symbol_type<0> = [Number,234,27,33]; ]
+            const color as Number = 0xDCDCDC;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 235; @position = 18; @symbol_constdef = [background,235,18,28]; @symbol_type<0> = [Number,235,32,38]; ]
+            const background as Number = 0xDCDCDC;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 238; @symbol_moduledef = [system_icon_destructive__hint_button_right_top,238,15,61]; ]
+        module system_icon_destructive__hint_button_right_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 238; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 239; @position = 18; @symbol_constdef = [exclude,239,18,25]; @symbol_type<0> = [Boolean,239,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 242; @symbol_moduledef = [confirmation_loc__hint_confirm,242,15,45]; ]
+        module confirmation_loc__hint_confirm {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 242; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 243; @position = 18; @symbol_constdef = [x,243,18,19]; @symbol_type<0> = [Number,243,23,29]; ]
+            const x as Number = 375;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 244; @position = 18; @symbol_constdef = [y,244,18,19]; @symbol_type<0> = [Number,244,23,29]; ]
+            const y as Number = 20;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 245; @position = 18; @symbol_constdef = [horizontalJustification,245,18,41]; @symbol_type<0> = [String,245,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 246; @position = 18; @symbol_constdef = [verticalJustification,246,18,39]; @symbol_type<0> = [String,246,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 249; @symbol_moduledef = [activity_color_dark__text,249,15,40]; ]
+        module activity_color_dark__text {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 249; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 251 18 ]
+                symbol [ Graphics %tmp.27 251 31 39 ];
+                %tmp.27 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.28 251 40 57 ];
+                %tmp.28 = getv %tmp.27 :COLOR_TRANSPARENT;
+                putv self :background %tmp.28;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 250; @position = 18; @symbol_constdef = [color,250,18,23]; @symbol_type<0> = [Number,250,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 251; @position = 18; @symbol_constdef = [background,251,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 254; @symbol_moduledef = [confirmation_input__keep,254,15,39]; ]
+        module confirmation_input__keep {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 254; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 255 18 ]
+                symbol [ WatchUi %tmp.29 255 27 34 ];
+                %tmp.29 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.30 255 35 42 ];
+                %tmp.30 = getv %tmp.29 :KEY_ESC;
+                putv self :button %tmp.30;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 255; @position = 18; @symbol_constdef = [button,255,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 258; @symbol_moduledef = [prompt_loc__body_with_title,258,15,42]; ]
+        module prompt_loc__body_with_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 258; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 259; @position = 18; @symbol_constdef = [x,259,18,19]; @symbol_type<0> = [Number,259,23,29]; ]
+            const x as Number = 6;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 260; @position = 18; @symbol_constdef = [y,260,18,19]; @symbol_type<0> = [Number,260,23,29]; ]
+            const y as Number = 6;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 263; @symbol_moduledef = [system_icon_dark__search,263,15,39]; ]
+        module system_icon_dark__search {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 263; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 264; @position = 18; @symbol_constdef = [filename,264,18,26]; @symbol_type<0> = [String,264,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__search.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 265; @position = 18; @symbol_constdef = [disableTransparency,265,18,37]; @symbol_type<0> = [Boolean,265,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 266; @position = 18; @symbol_constdef = [dithering,266,18,27]; @symbol_type<0> = [String,266,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 267; @position = 18; @symbol_constdef = [automaticPalette,267,18,34]; @symbol_type<0> = [Boolean,267,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 270; @symbol_moduledef = [activity_color_light__text,270,15,41]; ]
+        module activity_color_light__text {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 270; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 272 18 ]
+                symbol [ Graphics %tmp.31 272 31 39 ];
+                %tmp.31 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.32 272 40 57 ];
+                %tmp.32 = getv %tmp.31 :COLOR_TRANSPARENT;
+                putv self :background %tmp.32;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 271; @position = 18; @symbol_constdef = [color,271,18,23]; @symbol_type<0> = [Number,271,27,33]; ]
+            const color as Number = 0x313253;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 272; @position = 18; @symbol_constdef = [background,272,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 275; @symbol_moduledef = [confirmation_icon__hint_keep,275,15,43]; ]
+        module confirmation_icon__hint_keep {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 275; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 276; @position = 18; @symbol_constdef = [filename,276,18,26]; @symbol_type<0> = [String,276,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_back.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 277; @position = 18; @symbol_constdef = [disableTransparency,277,18,37]; @symbol_type<0> = [Boolean,277,41,48]; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 278; @position = 18; @symbol_constdef = [dithering,278,18,27]; @symbol_type<0> = [String,278,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 279; @position = 18; @symbol_constdef = [automaticPalette,279,18,34]; @symbol_type<0> = [Boolean,279,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 282; @symbol_moduledef = [system_icon_dark__save,282,15,37]; ]
+        module system_icon_dark__save {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 282; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 283; @position = 18; @symbol_constdef = [filename,283,18,26]; @symbol_type<0> = [String,283,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__save.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 284; @position = 18; @symbol_constdef = [disableTransparency,284,18,37]; @symbol_type<0> = [Boolean,284,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 285; @position = 18; @symbol_constdef = [dithering,285,18,27]; @symbol_type<0> = [String,285,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 286; @position = 18; @symbol_constdef = [automaticPalette,286,18,34]; @symbol_type<0> = [Boolean,286,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 289; @symbol_moduledef = [system_icon_destructive__hint_button_left_middle,289,15,63]; ]
+        module system_icon_destructive__hint_button_left_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 289; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 290; @position = 18; @symbol_constdef = [exclude,290,18,25]; @symbol_type<0> = [Boolean,290,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 293; @symbol_moduledef = [system_icon_light__search,293,15,40]; ]
+        module system_icon_light__search {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 293; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 294; @position = 18; @symbol_constdef = [filename,294,18,26]; @symbol_type<0> = [String,294,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__search.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 295; @position = 18; @symbol_constdef = [disableTransparency,295,18,37]; @symbol_type<0> = [Boolean,295,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 296; @position = 18; @symbol_constdef = [dithering,296,18,27]; @symbol_type<0> = [String,296,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 297; @position = 18; @symbol_constdef = [automaticPalette,297,18,34]; @symbol_type<0> = [Boolean,297,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 300; @symbol_moduledef = [system_icon_dark__hint_button_left_bottom,300,15,56]; ]
+        module system_icon_dark__hint_button_left_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 300; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 301; @position = 18; @symbol_constdef = [exclude,301,18,25]; @symbol_type<0> = [Boolean,301,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 304; @symbol_moduledef = [system_icon_positive__hint_button_left_top,304,15,57]; ]
+        module system_icon_positive__hint_button_left_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 304; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 305; @position = 18; @symbol_constdef = [exclude,305,18,25]; @symbol_type<0> = [Boolean,305,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 308; @symbol_moduledef = [system_loc__hint_button_right_bottom,308,15,51]; ]
+        module system_loc__hint_button_right_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 308; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 309; @position = 18; @symbol_constdef = [exclude,309,18,25]; @symbol_type<0> = [Boolean,309,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 312; @symbol_moduledef = [confirmation_icon_dark__hint_reject,312,15,50]; ]
+        module confirmation_icon_dark__hint_reject {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 312; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 313; @position = 18; @symbol_constdef = [filename,313,18,26]; @symbol_type<0> = [String,313,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 314; @position = 18; @symbol_constdef = [disableTransparency,314,18,37]; @symbol_type<0> = [Boolean,314,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 315; @position = 18; @symbol_constdef = [dithering,315,18,27]; @symbol_type<0> = [String,315,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 316; @position = 18; @symbol_constdef = [automaticPalette,316,18,34]; @symbol_type<0> = [Boolean,316,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 319; @symbol_moduledef = [confirmation_color_dark__body,319,15,44]; ]
+        module confirmation_color_dark__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 319; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 321 18 ]
+                symbol [ Graphics %tmp.33 321 31 39 ];
+                %tmp.33 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.34 321 40 57 ];
+                %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
+                putv self :background %tmp.34;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 320; @position = 18; @symbol_constdef = [color,320,18,23]; @symbol_type<0> = [Number,320,27,33]; ]
+            const color as Number = 0xDCDCDC;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 321; @position = 18; @symbol_constdef = [background,321,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 324; @symbol_moduledef = [confirmation_icon_light__hint_confirm,324,15,52]; ]
+        module confirmation_icon_light__hint_confirm {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 324; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 325; @position = 18; @symbol_constdef = [filename,325,18,26]; @symbol_type<0> = [String,325,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 326; @position = 18; @symbol_constdef = [disableTransparency,326,18,37]; @symbol_type<0> = [Boolean,326,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 327; @position = 18; @symbol_constdef = [dithering,327,18,27]; @symbol_type<0> = [String,327,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 328; @position = 18; @symbol_constdef = [automaticPalette,328,18,34]; @symbol_type<0> = [Boolean,328,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 331; @symbol_moduledef = [prompt_color_dark__title,331,15,39]; ]
+        module prompt_color_dark__title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 331; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 333 18 ]
+                symbol [ Graphics %tmp.35 333 31 39 ];
+                %tmp.35 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.36 333 40 57 ];
+                %tmp.36 = getv %tmp.35 :COLOR_TRANSPARENT;
+                putv self :background %tmp.36;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 332; @position = 18; @symbol_constdef = [color,332,18,23]; @symbol_type<0> = [Number,332,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 333; @position = 18; @symbol_constdef = [background,333,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 336; @symbol_moduledef = [system_icon_destructive__cancel,336,15,46]; ]
+        module system_icon_destructive__cancel {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 336; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 337; @position = 18; @symbol_constdef = [filename,337,18,26]; @symbol_type<0> = [String,337,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_destructive__cancel.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 338; @position = 18; @symbol_constdef = [disableTransparency,338,18,37]; @symbol_type<0> = [Boolean,338,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 339; @position = 18; @symbol_constdef = [dithering,339,18,27]; @symbol_type<0> = [String,339,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 340; @position = 18; @symbol_constdef = [automaticPalette,340,18,34]; @symbol_type<0> = [Boolean,340,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 343; @symbol_moduledef = [system_icon_light__hint_button_right_bottom,343,15,58]; ]
+        module system_icon_light__hint_button_right_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 343; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 344; @position = 18; @symbol_constdef = [exclude,344,18,25]; @symbol_type<0> = [Boolean,344,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 347; @symbol_moduledef = [prompt_loc__title,347,15,32]; ]
+        module prompt_loc__title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 347; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 348; @position = 18; @symbol_constdef = [exclude,348,18,25]; @symbol_type<0> = [Boolean,348,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 351; @symbol_moduledef = [confirmation_font_enhanced_readability__body,351,15,59]; ]
+        module confirmation_font_enhanced_readability__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 351; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 352; @position = 18; @symbol_constdef = [exclude,352,18,25]; @symbol_type<0> = [Boolean,352,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 355; @symbol_moduledef = [prompt_color_light__title,355,15,40]; ]
+        module prompt_color_light__title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 355; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 357 18 ]
+                symbol [ Graphics %tmp.37 357 31 39 ];
+                %tmp.37 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.38 357 40 57 ];
+                %tmp.38 = getv %tmp.37 :COLOR_TRANSPARENT;
+                putv self :background %tmp.38;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 356; @position = 18; @symbol_constdef = [color,356,18,23]; @symbol_type<0> = [Number,356,27,33]; ]
+            const color as Number = 0x313253;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 357; @position = 18; @symbol_constdef = [background,357,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 360; @symbol_moduledef = [system_icon_dark__hint_button_right_top,360,15,54]; ]
+        module system_icon_dark__hint_button_right_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 360; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 361; @position = 18; @symbol_constdef = [exclude,361,18,25]; @symbol_type<0> = [Boolean,361,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 364; @symbol_moduledef = [system_icon_dark__hint_button_left_middle,364,15,56]; ]
+        module system_icon_dark__hint_button_left_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 364; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 365; @position = 18; @symbol_constdef = [exclude,365,18,25]; @symbol_type<0> = [Boolean,365,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 368; @symbol_moduledef = [confirmation_icon_dark__hint_keep,368,15,48]; ]
+        module confirmation_icon_dark__hint_keep {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 368; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 369; @position = 18; @symbol_constdef = [filename,369,18,26]; @symbol_type<0> = [String,369,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_back.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 370; @position = 18; @symbol_constdef = [disableTransparency,370,18,37]; @symbol_type<0> = [Boolean,370,41,48]; ]
+            const disableTransparency as Boolean = false;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 371; @position = 18; @symbol_constdef = [dithering,371,18,27]; @symbol_type<0> = [String,371,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 372; @position = 18; @symbol_constdef = [automaticPalette,372,18,34]; @symbol_type<0> = [Boolean,372,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 375; @symbol_moduledef = [system_icon_light__cancel,375,15,40]; ]
+        module system_icon_light__cancel {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 375; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 376; @position = 18; @symbol_constdef = [filename,376,18,26]; @symbol_type<0> = [String,376,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__cancel.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 377; @position = 18; @symbol_constdef = [disableTransparency,377,18,37]; @symbol_type<0> = [Boolean,377,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 378; @position = 18; @symbol_constdef = [dithering,378,18,27]; @symbol_type<0> = [String,378,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 379; @position = 18; @symbol_constdef = [automaticPalette,379,18,34]; @symbol_type<0> = [Boolean,379,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 382; @symbol_moduledef = [confirmation_icon_light__hint_reject,382,15,51]; ]
+        module confirmation_icon_light__hint_reject {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 382; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 383; @position = 18; @symbol_constdef = [filename,383,18,26]; @symbol_type<0> = [String,383,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 384; @position = 18; @symbol_constdef = [disableTransparency,384,18,37]; @symbol_type<0> = [Boolean,384,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 385; @position = 18; @symbol_constdef = [dithering,385,18,27]; @symbol_type<0> = [String,385,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 386; @position = 18; @symbol_constdef = [automaticPalette,386,18,34]; @symbol_type<0> = [Boolean,386,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 389; @symbol_moduledef = [system_icon_light__about,389,15,39]; ]
+        module system_icon_light__about {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 389; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 390; @position = 18; @symbol_constdef = [filename,390,18,26]; @symbol_type<0> = [String,390,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__about.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 391; @position = 18; @symbol_constdef = [disableTransparency,391,18,37]; @symbol_type<0> = [Boolean,391,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 392; @position = 18; @symbol_constdef = [dithering,392,18,27]; @symbol_type<0> = [String,392,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 393; @position = 18; @symbol_constdef = [automaticPalette,393,18,34]; @symbol_type<0> = [Boolean,393,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 396; @symbol_moduledef = [system_size__toast_icon,396,15,38]; ]
+        module system_size__toast_icon {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 396; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 397; @position = 18; @symbol_constdef = [scaleX,397,18,24]; @symbol_type<0> = [Number,397,28,34]; ]
+            const scaleX as Number = 40;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 398; @position = 18; @symbol_constdef = [scaleY,398,18,24]; @symbol_type<0> = [Number,398,28,34]; ]
+            const scaleY as Number = 40;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 399; @position = 18; @symbol_constdef = [scaleRelativeTo,399,18,33]; @symbol_type<0> = [String,399,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 402; @symbol_moduledef = [system_icon_dark__hint_button_right_middle,402,15,57]; ]
+        module system_icon_dark__hint_button_right_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 402; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 403; @position = 18; @symbol_constdef = [exclude,403,18,25]; @symbol_type<0> = [Boolean,403,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 406; @symbol_moduledef = [confirmation_icon__hint_reject,406,15,45]; ]
+        module confirmation_icon__hint_reject {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 406; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 407; @position = 18; @symbol_constdef = [filename,407,18,26]; @symbol_type<0> = [String,407,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_reject.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 408; @position = 18; @symbol_constdef = [disableTransparency,408,18,37]; @symbol_type<0> = [Boolean,408,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 409; @position = 18; @symbol_constdef = [dithering,409,18,27]; @symbol_type<0> = [String,409,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 410; @position = 18; @symbol_constdef = [automaticPalette,410,18,34]; @symbol_type<0> = [Boolean,410,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 413; @symbol_moduledef = [system_icon_light__hint_action_menu,413,15,50]; ]
+        module system_icon_light__hint_action_menu {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 413; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 414; @position = 18; @symbol_constdef = [exclude,414,18,25]; @symbol_type<0> = [Boolean,414,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 417; @symbol_moduledef = [system_icon_light__hint_button_right_middle,417,15,58]; ]
+        module system_icon_light__hint_button_right_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 417; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 418; @position = 18; @symbol_constdef = [exclude,418,18,25]; @symbol_type<0> = [Boolean,418,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 421; @symbol_moduledef = [system_icon_destructive__hint_button_right_middle,421,15,64]; ]
+        module system_icon_destructive__hint_button_right_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 421; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 422; @position = 18; @symbol_constdef = [exclude,422,18,25]; @symbol_type<0> = [Boolean,422,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 425; @symbol_moduledef = [confirmation_loc__hint_reject,425,15,44]; ]
+        module confirmation_loc__hint_reject {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 425; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 426; @position = 18; @symbol_constdef = [x,426,18,19]; @symbol_type<0> = [Number,426,23,29]; ]
+            const x as Number = 375;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 427; @position = 18; @symbol_constdef = [y,427,18,19]; @symbol_type<0> = [Number,427,23,29]; ]
+            const y as Number = 450;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 428; @position = 18; @symbol_constdef = [horizontalJustification,428,18,41]; @symbol_type<0> = [String,428,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 429; @position = 18; @symbol_constdef = [verticalJustification,429,18,39]; @symbol_type<0> = [String,429,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 432; @symbol_moduledef = [confirmation_icon_dark__hint_delete,432,15,50]; ]
+        module confirmation_icon_dark__hint_delete {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 432; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 433; @position = 18; @symbol_constdef = [filename,433,18,26]; @symbol_type<0> = [String,433,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 434; @position = 18; @symbol_constdef = [disableTransparency,434,18,37]; @symbol_type<0> = [Boolean,434,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 435; @position = 18; @symbol_constdef = [dithering,435,18,27]; @symbol_type<0> = [String,435,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 436; @position = 18; @symbol_constdef = [automaticPalette,436,18,34]; @symbol_type<0> = [Boolean,436,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 439; @symbol_moduledef = [activity_color_dark__background,439,15,46]; ]
+        module activity_color_dark__background {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 439; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 440; @position = 18; @symbol_constdef = [color,440,18,23]; @symbol_type<0> = [Number,440,27,33]; ]
+            const color as Number = 0x191919;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 441; @position = 18; @symbol_constdef = [background,441,18,28]; @symbol_type<0> = [Number,441,32,38]; ]
+            const background as Number = 0x191919;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 444; @symbol_moduledef = [system_icon_light__hint_button_left_bottom,444,15,57]; ]
+        module system_icon_light__hint_button_left_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 444; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 445; @position = 18; @symbol_constdef = [exclude,445,18,25]; @symbol_type<0> = [Boolean,445,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 448; @symbol_moduledef = [system_icon_positive__hint_button_left_middle,448,15,60]; ]
+        module system_icon_positive__hint_button_left_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 448; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 449; @position = 18; @symbol_constdef = [exclude,449,18,25]; @symbol_type<0> = [Boolean,449,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 452; @symbol_moduledef = [system_size__menu_icon,452,15,37]; ]
+        module system_size__menu_icon {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 452; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 453; @position = 18; @symbol_constdef = [scaleX,453,18,24]; @symbol_type<0> = [Number,453,28,34]; ]
+            const scaleX as Number = 70;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 454; @position = 18; @symbol_constdef = [scaleY,454,18,24]; @symbol_type<0> = [Number,454,28,34]; ]
+            const scaleY as Number = 70;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 455; @position = 18; @symbol_constdef = [scaleRelativeTo,455,18,33]; @symbol_type<0> = [String,455,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 458; @symbol_moduledef = [system_icon_destructive__warning,458,15,47]; ]
+        module system_icon_destructive__warning {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 458; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 459; @position = 18; @symbol_constdef = [filename,459,18,26]; @symbol_type<0> = [String,459,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_destructive__warning.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 460; @position = 18; @symbol_constdef = [disableTransparency,460,18,37]; @symbol_type<0> = [Boolean,460,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 461; @position = 18; @symbol_constdef = [dithering,461,18,27]; @symbol_type<0> = [String,461,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 462; @position = 18; @symbol_constdef = [automaticPalette,462,18,34]; @symbol_type<0> = [Boolean,462,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 465; @symbol_moduledef = [system_loc__hint_button_right_middle,465,15,51]; ]
+        module system_loc__hint_button_right_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 465; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 466; @position = 18; @symbol_constdef = [exclude,466,18,25]; @symbol_type<0> = [Boolean,466,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 469; @symbol_moduledef = [system_icon_dark__cancel,469,15,39]; ]
+        module system_icon_dark__cancel {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 469; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 470; @position = 18; @symbol_constdef = [filename,470,18,26]; @symbol_type<0> = [String,470,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__cancel.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 471; @position = 18; @symbol_constdef = [disableTransparency,471,18,37]; @symbol_type<0> = [Boolean,471,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 472; @position = 18; @symbol_constdef = [dithering,472,18,27]; @symbol_type<0> = [String,472,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 473; @position = 18; @symbol_constdef = [automaticPalette,473,18,34]; @symbol_type<0> = [Boolean,473,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 476; @symbol_moduledef = [prompt_size__body_with_title,476,15,43]; ]
+        module prompt_size__body_with_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 476; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 477; @position = 18; @symbol_constdef = [width,477,18,23]; @symbol_type<0> = [Number,477,27,33]; ]
+            const width as Number = 412;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 478; @position = 18; @symbol_constdef = [height,478,18,24]; @symbol_type<0> = [Number,478,28,34]; ]
+            const height as Number = 501;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 481; @symbol_moduledef = [system_loc__hint_button_right_top,481,15,48]; ]
+        module system_loc__hint_button_right_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 481; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 482; @position = 18; @symbol_constdef = [exclude,482,18,25]; @symbol_type<0> = [Boolean,482,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 485; @symbol_moduledef = [system_color_light__text,485,15,39]; ]
+        module system_color_light__text {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 485; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 487 18 ]
+                symbol [ Graphics %tmp.39 487 31 39 ];
+                %tmp.39 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.40 487 40 57 ];
+                %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+                putv self :background %tmp.40;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 486; @position = 18; @symbol_constdef = [color,486,18,23]; @symbol_type<0> = [Number,486,27,33]; ]
+            const color as Number = 0x313253;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 487; @position = 18; @symbol_constdef = [background,487,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 490; @symbol_moduledef = [system_icon_light__check,490,15,39]; ]
+        module system_icon_light__check {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 490; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 491; @position = 18; @symbol_constdef = [filename,491,18,26]; @symbol_type<0> = [String,491,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__check.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 492; @position = 18; @symbol_constdef = [disableTransparency,492,18,37]; @symbol_type<0> = [Boolean,492,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 493; @position = 18; @symbol_constdef = [dithering,493,18,27]; @symbol_type<0> = [String,493,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 494; @position = 18; @symbol_constdef = [automaticPalette,494,18,34]; @symbol_type<0> = [Boolean,494,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 497; @symbol_moduledef = [confirmation_input__reject,497,15,41]; ]
+        module confirmation_input__reject {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 497; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 498 18 ]
+                symbol [ WatchUi %tmp.41 498 27 34 ];
+                %tmp.41 = getm $.Toybox.WatchUi;
+                symbol [ KEY_ESC %tmp.42 498 35 42 ];
+                %tmp.42 = getv %tmp.41 :KEY_ESC;
+                putv self :button %tmp.42;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 498; @position = 18; @symbol_constdef = [button,498,18,24]; ]
+            const button;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 501; @symbol_moduledef = [system_icon_light__revert,501,15,40]; ]
+        module system_icon_light__revert {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 501; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 502; @position = 18; @symbol_constdef = [filename,502,18,26]; @symbol_type<0> = [String,502,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__revert.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 503; @position = 18; @symbol_constdef = [disableTransparency,503,18,37]; @symbol_type<0> = [Boolean,503,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 504; @position = 18; @symbol_constdef = [dithering,504,18,27]; @symbol_type<0> = [String,504,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 505; @position = 18; @symbol_constdef = [automaticPalette,505,18,34]; @symbol_type<0> = [Boolean,505,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 508; @symbol_moduledef = [system_size__subwindow,508,15,37]; ]
+        module system_size__subwindow {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 508; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 509; @position = 18; @symbol_constdef = [exclude,509,18,25]; @symbol_type<0> = [Boolean,509,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 512; @symbol_moduledef = [system_icon_positive__hint_button_left_bottom,512,15,60]; ]
+        module system_icon_positive__hint_button_left_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 512; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 513; @position = 18; @symbol_constdef = [exclude,513,18,25]; @symbol_type<0> = [Boolean,513,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 516; @symbol_moduledef = [system_icon_dark__check,516,15,38]; ]
+        module system_icon_dark__check {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 516; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 517; @position = 18; @symbol_constdef = [filename,517,18,26]; @symbol_type<0> = [String,517,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__check.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 518; @position = 18; @symbol_constdef = [disableTransparency,518,18,37]; @symbol_type<0> = [Boolean,518,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 519; @position = 18; @symbol_constdef = [dithering,519,18,27]; @symbol_type<0> = [String,519,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 520; @position = 18; @symbol_constdef = [automaticPalette,520,18,34]; @symbol_type<0> = [Boolean,520,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 523; @symbol_moduledef = [confirmation_loc__hint_keep,523,15,42]; ]
+        module confirmation_loc__hint_keep {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 523; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 524; @position = 18; @symbol_constdef = [x,524,18,19]; @symbol_type<0> = [Number,524,23,29]; ]
+            const x as Number = 375;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 525; @position = 18; @symbol_constdef = [y,525,18,19]; @symbol_type<0> = [Number,525,23,29]; ]
+            const y as Number = 450;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 526; @position = 18; @symbol_constdef = [horizontalJustification,526,18,41]; @symbol_type<0> = [String,526,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 527; @position = 18; @symbol_constdef = [verticalJustification,527,18,39]; @symbol_type<0> = [String,527,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 530; @symbol_moduledef = [confirmation_loc__hint_delete,530,15,44]; ]
+        module confirmation_loc__hint_delete {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 530; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 531; @position = 18; @symbol_constdef = [x,531,18,19]; @symbol_type<0> = [Number,531,23,29]; ]
+            const x as Number = 375;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 532; @position = 18; @symbol_constdef = [y,532,18,19]; @symbol_type<0> = [Number,532,23,29]; ]
+            const y as Number = 20;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 533; @position = 18; @symbol_constdef = [horizontalJustification,533,18,41]; @symbol_type<0> = [String,533,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 534; @position = 18; @symbol_constdef = [verticalJustification,534,18,39]; @symbol_type<0> = [String,534,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 537; @symbol_moduledef = [system_icon_positive__hint_action_menu,537,15,53]; ]
+        module system_icon_positive__hint_action_menu {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 537; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 538; @position = 18; @symbol_constdef = [exclude,538,18,25]; @symbol_type<0> = [Boolean,538,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 541; @symbol_moduledef = [system_icon_positive__hint_button_right_middle,541,15,61]; ]
+        module system_icon_positive__hint_button_right_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 541; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 542; @position = 18; @symbol_constdef = [exclude,542,18,25]; @symbol_type<0> = [Boolean,542,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 545; @symbol_moduledef = [system_icon_light__hint_button_left_middle,545,15,57]; ]
+        module system_icon_light__hint_button_left_middle {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 545; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 546; @position = 18; @symbol_constdef = [exclude,546,18,25]; @symbol_type<0> = [Boolean,546,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 549; @symbol_moduledef = [system_icon_dark__hint_button_right_bottom,549,15,57]; ]
+        module system_icon_dark__hint_button_right_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 549; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 550; @position = 18; @symbol_constdef = [exclude,550,18,25]; @symbol_type<0> = [Boolean,550,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 553; @symbol_moduledef = [system_icon_positive__hint_button_right_bottom,553,15,61]; ]
+        module system_icon_positive__hint_button_right_bottom {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 553; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 554; @position = 18; @symbol_constdef = [exclude,554,18,25]; @symbol_type<0> = [Boolean,554,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 557; @symbol_moduledef = [system_icon_dark__revert,557,15,39]; ]
+        module system_icon_dark__revert {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 557; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 558; @position = 18; @symbol_constdef = [filename,558,18,26]; @symbol_type<0> = [String,558,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__revert.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 559; @position = 18; @symbol_constdef = [disableTransparency,559,18,37]; @symbol_type<0> = [Boolean,559,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 560; @position = 18; @symbol_constdef = [dithering,560,18,27]; @symbol_type<0> = [String,560,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 561; @position = 18; @symbol_constdef = [automaticPalette,561,18,34]; @symbol_type<0> = [Boolean,561,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 564; @symbol_moduledef = [confirmation_icon_light__hint_delete,564,15,51]; ]
+        module confirmation_icon_light__hint_delete {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 564; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 565; @position = 18; @symbol_constdef = [filename,565,18,26]; @symbol_type<0> = [String,565,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 566; @position = 18; @symbol_constdef = [disableTransparency,566,18,37]; @symbol_type<0> = [Boolean,566,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 567; @position = 18; @symbol_constdef = [dithering,567,18,27]; @symbol_type<0> = [String,567,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 568; @position = 18; @symbol_constdef = [automaticPalette,568,18,34]; @symbol_type<0> = [Boolean,568,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 571; @symbol_moduledef = [system_icon_dark__question,571,15,41]; ]
+        module system_icon_dark__question {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 571; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 572; @position = 18; @symbol_constdef = [filename,572,18,26]; @symbol_type<0> = [String,572,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__question.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 573; @position = 18; @symbol_constdef = [disableTransparency,573,18,37]; @symbol_type<0> = [Boolean,573,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 574; @position = 18; @symbol_constdef = [dithering,574,18,27]; @symbol_type<0> = [String,574,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 575; @position = 18; @symbol_constdef = [automaticPalette,575,18,34]; @symbol_type<0> = [Boolean,575,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 578; @symbol_moduledef = [system_icon_light__discard,578,15,41]; ]
+        module system_icon_light__discard {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 578; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 579; @position = 18; @symbol_constdef = [filename,579,18,26]; @symbol_type<0> = [String,579,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_light__discard.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 580; @position = 18; @symbol_constdef = [disableTransparency,580,18,37]; @symbol_type<0> = [Boolean,580,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 581; @position = 18; @symbol_constdef = [dithering,581,18,27]; @symbol_type<0> = [String,581,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 582; @position = 18; @symbol_constdef = [automaticPalette,582,18,34]; @symbol_type<0> = [Boolean,582,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 585; @symbol_moduledef = [device_info,585,15,26]; ]
+        module device_info {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 585; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 587 18 ]
+                symbol [ Toybox %tmp.44 587 32 38 ];
+                %tmp.44 = getv ? :Toybox;
+                symbol [ System %tmp.45 587 39 45 ];
+                %tmp.45 = getv %tmp.44 :System;
+                symbol [ SCREEN_SHAPE_RECTANGLE %tmp.46 587 46 68 ];
+                %tmp.46 = getv %tmp.45 :SCREEN_SHAPE_RECTANGLE;
+                putv self :screenShape %tmp.46;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 586; @position = 18; @symbol_constdef = [screenWidth,586,18,29]; @symbol_type<0> = [Number,586,33,39]; ]
+            const screenWidth as Number = 420;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 587; @position = 18; @symbol_constdef = [screenShape,587,18,29]; ]
+            const screenShape;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 588; @position = 18; @symbol_constdef = [hasNightMode,588,18,30]; @symbol_type<0> = [Boolean,588,34,41]; ]
+            const hasNightMode as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 589; @position = 18; @symbol_constdef = [hasGpu,589,18,24]; @symbol_type<0> = [Boolean,589,28,35]; ]
+            const hasGpu as Boolean = false;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 590; @position = 18; @symbol_constdef = [screenHeight,590,18,30]; @symbol_type<0> = [Number,590,34,40]; ]
+            const screenHeight as Number = 600;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 591; @position = 18; @symbol_constdef = [hasTouchScreen,591,18,32]; @symbol_type<0> = [Boolean,591,36,43]; ]
+            const hasTouchScreen as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 592; @position = 18; @symbol_constdef = [hasEnhancedReadabilityMode,592,18,44]; @symbol_type<0> = [Boolean,592,48,55]; ]
+            const hasEnhancedReadabilityMode as Boolean = false;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 595; @symbol_moduledef = [confirmation_icon_dark__hint_confirm,595,15,51]; ]
+        module confirmation_icon_dark__hint_confirm {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 595; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 596; @position = 18; @symbol_constdef = [filename,596,18,26]; @symbol_type<0> = [String,596,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 597; @position = 18; @symbol_constdef = [disableTransparency,597,18,37]; @symbol_type<0> = [Boolean,597,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 598; @position = 18; @symbol_constdef = [dithering,598,18,27]; @symbol_type<0> = [String,598,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 599; @position = 18; @symbol_constdef = [automaticPalette,599,18,34]; @symbol_type<0> = [Boolean,599,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 602; @symbol_moduledef = [prompt_font__body_no_title,602,15,41]; ]
+        module prompt_font__body_no_title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 602; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 603 18 ]
+                symbol [ Graphics %tmp.47 603 34 42 ];
+                %tmp.47 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_CENTER %tmp.48 603 43 62 ];
+                %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+                symbol [ Graphics %tmp.49 603 63 71 ];
+                %tmp.49 = getm $.Toybox.Graphics;
+                symbol [ TEXT_JUSTIFY_VCENTER %tmp.50 603 72 92 ];
+                %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_VCENTER;
+                %tmp.51 = bitor %tmp.48 %tmp.50;
+                putv self :justification %tmp.51;
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 604 18 ]
+                symbol [ Graphics %tmp.52 604 25 33 ];
+                %tmp.52 = getm $.Toybox.Graphics;
+                symbol [ FONT_GLANCE_NUMBER %tmp.53 604 34 52 ];
+                %tmp.53 = getv %tmp.52 :FONT_GLANCE_NUMBER;
+                putv self :font %tmp.53;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 603; @position = 18; @symbol_constdef = [justification,603,18,31]; ]
+            const justification;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 604; @position = 18; @symbol_constdef = [font,604,18,22]; ]
+            const font;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 607; @symbol_moduledef = [prompt_size__title_icon,607,15,38]; ]
+        module prompt_size__title_icon {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 607; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 608; @position = 18; @symbol_constdef = [scaleX,608,18,24]; @symbol_type<0> = [Number,608,28,34]; ]
+            const scaleX as Number = 95;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 609; @position = 18; @symbol_constdef = [scaleY,609,18,24]; @symbol_type<0> = [Number,609,28,34]; ]
+            const scaleY as Number = 95;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 610; @position = 18; @symbol_constdef = [scaleRelativeTo,610,18,33]; @symbol_type<0> = [String,610,37,43]; ]
+            const scaleRelativeTo as String = "screen";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 613; @symbol_moduledef = [system_icon_dark__warning,613,15,40]; ]
+        module system_icon_dark__warning {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 613; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 614; @position = 18; @symbol_constdef = [filename,614,18,26]; @symbol_type<0> = [String,614,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_dark__warning.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 615; @position = 18; @symbol_constdef = [disableTransparency,615,18,37]; @symbol_type<0> = [Boolean,615,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 616; @position = 18; @symbol_constdef = [dithering,616,18,27]; @symbol_type<0> = [String,616,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 617; @position = 18; @symbol_constdef = [automaticPalette,617,18,34]; @symbol_type<0> = [Boolean,617,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 620; @symbol_moduledef = [prompt_loc__title_icon,620,15,37]; ]
+        module prompt_loc__title_icon {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 620; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 621; @position = 18; @symbol_constdef = [x,621,18,19]; @symbol_type<0> = [Number,621,23,29]; ]
+            const x as Number = 210;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 622; @position = 18; @symbol_constdef = [y,622,18,19]; @symbol_type<0> = [Number,622,23,29]; ]
+            const y as Number = 68;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 623; @position = 18; @symbol_constdef = [horizontalJustification,623,18,41]; @symbol_type<0> = [String,623,45,51]; ]
+            const horizontalJustification as String = "center";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 624; @position = 18; @symbol_constdef = [verticalJustification,624,18,39]; @symbol_type<0> = [String,624,43,49]; ]
+            const verticalJustification as String = "center";
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 627; @symbol_moduledef = [prompt_font_enhanced_readability__title,627,15,54]; ]
+        module prompt_font_enhanced_readability__title {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 627; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 628; @position = 18; @symbol_constdef = [exclude,628,18,25]; @symbol_type<0> = [Boolean,628,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 631; @symbol_moduledef = [prompt_color_dark__body,631,15,38]; ]
+        module prompt_color_dark__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 631; ]
+            <init> {
+[ "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen" 633 18 ]
+                symbol [ Graphics %tmp.54 633 31 39 ];
+                %tmp.54 = getm $.Toybox.Graphics;
+                symbol [ COLOR_TRANSPARENT %tmp.55 633 40 57 ];
+                %tmp.55 = getv %tmp.54 :COLOR_TRANSPARENT;
+                putv self :background %tmp.55;
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 632; @position = 18; @symbol_constdef = [color,632,18,23]; @symbol_type<0> = [Number,632,27,33]; ]
+            const color as Number = 0xFFFFFF;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 633; @position = 18; @symbol_constdef = [background,633,18,28]; ]
+            const background;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 636; @symbol_moduledef = [confirmation_icon__hint_delete,636,15,45]; ]
+        module confirmation_icon__hint_delete {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 636; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 637; @position = 18; @symbol_constdef = [filename,637,18,26]; @symbol_type<0> = [String,637,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\confirmation_icon__hint_completion.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 638; @position = 18; @symbol_constdef = [disableTransparency,638,18,37]; @symbol_type<0> = [Boolean,638,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 639; @position = 18; @symbol_constdef = [dithering,639,18,27]; @symbol_type<0> = [String,639,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 640; @position = 18; @symbol_constdef = [automaticPalette,640,18,34]; @symbol_type<0> = [Boolean,640,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 643; @symbol_moduledef = [system_icon_light__hint_button_right_top,643,15,55]; ]
+        module system_icon_light__hint_button_right_top {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 643; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 644; @position = 18; @symbol_constdef = [exclude,644,18,25]; @symbol_type<0> = [Boolean,644,29,36]; ]
+            const exclude as Boolean = true;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 647; @symbol_moduledef = [confirmation_size__body,647,15,38]; ]
+        module confirmation_size__body {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 647; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 648; @position = 18; @symbol_constdef = [width,648,18,23]; @symbol_type<0> = [Number,648,27,33]; ]
+            const width as Number = 402;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 649; @position = 18; @symbol_constdef = [height,649,18,24]; @symbol_type<0> = [Number,649,28,34]; ]
+            const height as Number = 503;
+        }
+        [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 652; @symbol_moduledef = [system_icon_positive__check,652,15,42]; ]
+        module system_icon_positive__check {
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 652; ]
+            <init> {
+            }
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 653; @position = 18; @symbol_constdef = [filename,653,18,26]; @symbol_type<0> = [String,653,30,36]; ]
+            const filename as String = "C:\\Users\\peter\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\edge850\\system_icon_positive__check.svg";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 654; @position = 18; @symbol_constdef = [disableTransparency,654,18,37]; @symbol_type<0> = [Boolean,654,41,48]; ]
+            const disableTransparency as Boolean = true;
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 655; @position = 18; @symbol_constdef = [dithering,655,18,27]; @symbol_type<0> = [String,655,31,37]; ]
+            const dithering as String = "none";
+            [ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 656; @position = 18; @symbol_constdef = [automaticPalette,656,18,34]; @symbol_type<0> = [Boolean,656,38,45]; ]
+            const automaticPalette as Boolean = true;
+        }
+    }
+}
+[ @file = "c:\Users\peter\Downloads\Edge 530 Screen\Power Data Field\Edge 850\gen\006-B4634-00\source\Rez.mcgen"; @line = 1; ]
+<init> {
+}

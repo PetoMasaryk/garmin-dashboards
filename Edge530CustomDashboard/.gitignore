@@ -1,0 +1,13 @@
+# Garmin Connect IQ Build Outputs
+bin/
+mir/
+gen/
+temp/
+
+# Developer Keys (NEVER push your private key to GitHub!)
+*.private_key
+developer_key
+
+# OS specific
+.DS_Store
+Thumbs.db

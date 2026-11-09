@@ -1,0 +1,46 @@
+<settings>
+    <setting propertyKey="@Properties.CustomFtp" title="FTP (Watts)">
+        <settingConfig type="numeric" min="50" max="600" errorMessage="Enter valid watts" />
+    </setting>
+
+    <setting propertyKey="@Properties.UseCustomPowerZones" title="Use Manual Power Zones">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.PowerZone1Max" title="Power Zone 1 Upper (W)">
+        <settingConfig type="numeric" min="0" max="1000" errorMessage="Enter valid watts" />
+    </setting>
+    <setting propertyKey="@Properties.PowerZone2Max" title="Power Zone 2 Upper (W)">
+        <settingConfig type="numeric" min="0" max="1000" errorMessage="Enter valid watts" />
+    </setting>
+    <setting propertyKey="@Properties.PowerZone3Max" title="Power Zone 3 Upper (W)">
+        <settingConfig type="numeric" min="0" max="1000" errorMessage="Enter valid watts" />
+    </setting>
+    <setting propertyKey="@Properties.PowerZone4Max" title="Power Zone 4 Upper (W)">
+        <settingConfig type="numeric" min="0" max="1000" errorMessage="Enter valid watts" />
+    </setting>
+    <setting propertyKey="@Properties.PowerZone5Max" title="Power Zone 5 Upper (W)">
+        <settingConfig type="numeric" min="0" max="1000" errorMessage="Enter valid watts" />
+    </setting>
+    <setting propertyKey="@Properties.PowerZone6Max" title="Power Zone 6 Upper (W)">
+        <settingConfig type="numeric" min="0" max="1000" errorMessage="Enter valid watts" />
+    </setting>
+
+    <setting propertyKey="@Properties.UseCustomHrZones" title="Use Manual HR Zones">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.HrZone1Max" title="HR Zone 1 Upper Limit">
+        <settingConfig type="numeric" min="30" max="220" errorMessage="Enter valid BPM" />
+    </setting>
+    <setting propertyKey="@Properties.HrZone2Max" title="HR Zone 2 Upper Limit">
+        <settingConfig type="numeric" min="30" max="220" errorMessage="Enter valid BPM" />
+    </setting>
+    <setting propertyKey="@Properties.HrZone3Max" title="HR Zone 3 Upper Limit">
+        <settingConfig type="numeric" min="30" max="220" errorMessage="Enter valid BPM" />
+    </setting>
+    <setting propertyKey="@Properties.HrZone4Max" title="HR Zone 4 Upper Limit">
+        <settingConfig type="numeric" min="30" max="220" errorMessage="Enter valid BPM" />
+    </setting>
+    <setting propertyKey="@Properties.HrZone5Max" title="HR Zone 5 Upper Limit">
+        <settingConfig type="numeric" min="30" max="220" errorMessage="Enter valid BPM" />
+    </setting>
+</settings>

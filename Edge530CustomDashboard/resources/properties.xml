@@ -1,0 +1,20 @@
+<properties>
+    <property id="CustomFtp" type="number">230</property>
+    
+    <!-- Manual Power Zones -->
+    <property id="UseCustomPowerZones" type="boolean">false</property>
+    <property id="PowerZone1Max" type="number">126</property>
+    <property id="PowerZone2Max" type="number">172</property>
+    <property id="PowerZone3Max" type="number">207</property>
+    <property id="PowerZone4Max" type="number">241</property>
+    <property id="PowerZone5Max" type="number">276</property>
+    <property id="PowerZone6Max" type="number">345</property>
+
+    <!-- Manual Heart Rate Zones -->
+    <property id="UseCustomHrZones" type="boolean">false</property>
+    <property id="HrZone1Max" type="number">133</property>
+    <property id="HrZone2Max" type="number">153</property>
+    <property id="HrZone3Max" type="number">159</property>
+    <property id="HrZone4Max" type="number">174</property>
+    <property id="HrZone5Max" type="number">190</property>
+</properties>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\peter\Downloads\Edge 530 Screen\HR Data Field\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="1" lineNum="27" parent="globals/HRZoneView" pc="268435457" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\peter\\Downloads\\Edge 530 Screen\\Power Data Field\\gen\\006-B3121-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435476" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="3" lineNum="12" parent="globals/HRZoneApp" pc="268435500" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="89" parent="globals/HRZoneView" pc="268435519" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="90" parent="globals/HRZoneView" pc="268435523" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="92" parent="globals/HRZoneView" pc="268435530" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="93" parent="globals/HRZoneView" pc="268435537" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="94" parent="globals/HRZoneView" pc="268435550" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="98" parent="globals/HRZoneView" pc="268435560" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="4" lineNum="99" parent="globals/HRZoneView" pc="268435574" symbol="compute"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="129" parent="globals/HRZoneView" pc="268435602" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="130" parent="globals/HRZoneView" pc="268435606" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="131" parent="globals/HRZoneView" pc="268435634" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="134" parent="globals/HRZoneView" pc="268435640" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="136" parent="globals/HRZoneView" pc="268435671" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="136" parent="globals/HRZoneView" pc="268435682" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="137" parent="globals/HRZoneView" pc="268435688" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="137" parent="globals/HRZoneView" pc="268435699" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="138" parent="globals/HRZoneView" pc="268435705" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="138" parent="globals/HRZoneView" pc="268435716" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="139" parent="globals/HRZoneView" pc="268435722" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="139" parent="globals/HRZoneView" pc="268435733" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="5" lineNum="140" parent="globals/HRZoneView" pc="268435739" symbol="getHRZoneColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="106" parent="globals/HRZoneView" pc="268435745" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="107" parent="globals/HRZoneView" pc="268435747" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="108" parent="globals/HRZoneView" pc="268435764" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="110" parent="globals/HRZoneView" pc="268435798" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="113" parent="globals/HRZoneView" pc="268435817" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="114" parent="globals/HRZoneView" pc="268435836" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="115" parent="globals/HRZoneView" pc="268435852" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="117" parent="globals/HRZoneView" pc="268435880" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="118" parent="globals/HRZoneView" pc="268435897" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="6" lineNum="120" parent="globals/HRZoneView" pc="268435932" symbol="updateRollingHr"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="63" parent="globals/HRZoneView" pc="268435946" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="64" parent="globals/HRZoneView" pc="268435950" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="66" parent="globals/HRZoneView" pc="268435968" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="68" parent="globals/HRZoneView" pc="268435981" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="69" parent="globals/HRZoneView" pc="268436034" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="70" parent="globals/HRZoneView" pc="268436047" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="71" parent="globals/HRZoneView" pc="268436060" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="73" parent="globals/HRZoneView" pc="268436073" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="74" parent="globals/HRZoneView" pc="268436086" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="77" parent="globals/HRZoneView" pc="268436099" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="78" parent="globals/HRZoneView" pc="268436116" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="79" parent="globals/HRZoneView" pc="268436123" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="7" lineNum="80" parent="globals/HRZoneView" pc="268436164" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="8" lineNum="161" parent="globals/HRZoneView" pc="268436181" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="8" lineNum="163" parent="globals/HRZoneView" pc="268436183" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="8" lineNum="164" parent="globals/HRZoneView" pc="268436194" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="8" lineNum="166" parent="globals/HRZoneView" pc="268436200" symbol="getContrastTextColor"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="173" parent="globals/HRZoneView" pc="268436206" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="174" parent="globals/HRZoneView" pc="268436210" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="175" parent="globals/HRZoneView" pc="268436223" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="177" parent="globals/HRZoneView" pc="268436236" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="178" parent="globals/HRZoneView" pc="268436246" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="180" parent="globals/HRZoneView" pc="268436261" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="181" parent="globals/HRZoneView" pc="268436277" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="183" parent="globals/HRZoneView" pc="268436289" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="189" parent="globals/HRZoneView" pc="268436305" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="190" parent="globals/HRZoneView" pc="268436312" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="193" parent="globals/HRZoneView" pc="268436319" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="213" parent="globals/HRZoneView" pc="268437061" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="215" parent="globals/HRZoneView" pc="268437077" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="216" parent="globals/HRZoneView" pc="268437121" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="217" parent="globals/HRZoneView" pc="268437165" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="218" parent="globals/HRZoneView" pc="268437209" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="219" parent="globals/HRZoneView" pc="268437253" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="222" parent="globals/HRZoneView" pc="268437297" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="225" parent="globals/HRZoneView" pc="268437313" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="226" parent="globals/HRZoneView" pc="268437334" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="235" parent="globals/HRZoneView" pc="268437371" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="9" lineNum="236" parent="globals/HRZoneView" pc="268437390" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="143" parent="globals/HRZoneView" pc="268437437" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="144" parent="globals/HRZoneView" pc="268437441" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="145" parent="globals/HRZoneView" pc="268437469" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="148" parent="globals/HRZoneView" pc="268437475" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="150" parent="globals/HRZoneView" pc="268437506" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="150" parent="globals/HRZoneView" pc="268437517" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="151" parent="globals/HRZoneView" pc="268437523" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="151" parent="globals/HRZoneView" pc="268437534" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="152" parent="globals/HRZoneView" pc="268437540" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="152" parent="globals/HRZoneView" pc="268437551" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="153" parent="globals/HRZoneView" pc="268437557" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="153" parent="globals/HRZoneView" pc="268437568" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="10" lineNum="154" parent="globals/HRZoneView" pc="268437574" symbol="getHRZoneName"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="11" lineNum="18" parent="globals/HRZoneApp" pc="268437580" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="11" lineNum="19" parent="globals/HRZoneApp" pc="268437582" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="12" lineNum="14" parent="globals/HRZoneApp" pc="268437619" symbol="initialize"/>
+        <entry filename="C:\\Users\\peter\\Downloads\\Edge 530 Screen\\HR Data Field\\source\\HRZoneView.mc" id="12" lineNum="15" parent="globals/HRZoneApp" pc="268437621" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="6" object="true" symbol="HRZoneView"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry field="true" id="10" symbol="_maxHr"/>
+        <entry id="8388647" module="true" symbol="UserProfile"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="16" method="true" symbol="getHRZoneName"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry field="true" id="7" symbol="_displayHr"/>
+        <entry id="5" object="true" symbol="HRZoneApp"/>
+        <entry field="true" id="18" symbol="launcher_icon"/>
+        <entry field="true" id="8" symbol="_hrSamples"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="13" symbol="_zoneColor"/>
+        <entry id="17" method="true" symbol="updateRollingHr"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="12" symbol="_samplesUsed"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="15" method="true" symbol="getHRZoneColor"/>
+        <entry id="14" method="true" symbol="getContrastTextColor"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="8388749" symbol="maxHeartRate"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="9" symbol="_hrSum"/>
+        <entry field="true" id="11" symbol="_sampleIndex"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="19" symbol="PowerZoneField"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435601" name="info" stackId="1" startPc="268435519"/>
+        <entry endPc="268435600" name="currentHr" stackId="2" startPc="268435523"/>
+        <entry arg="true" endPc="268435744" name="hr" stackId="1" startPc="268435602"/>
+        <entry endPc="268435744" name="ratio" stackId="2" startPc="268435606"/>
+        <entry arg="true" endPc="268435945" name="currentHr" stackId="1" startPc="268435745"/>
+        <entry endPc="268436179" name="profile" stackId="1" startPc="268435950"/>
+        <entry arg="true" endPc="268436205" name="bgColor" stackId="1" startPc="268436181"/>
+        <entry arg="true" endPc="268437436" name="dc" stackId="1" startPc="268436206"/>
+        <entry endPc="268437435" name="w" stackId="2" startPc="268436210"/>
+        <entry endPc="268437435" name="h" stackId="3" startPc="268436210"/>
+        <entry endPc="268437435" name="bg" stackId="4" startPc="268436210"/>
+        <entry endPc="268437435" name="fg" stackId="5" startPc="268436210"/>
+        <entry endPc="268437435" name="hx" stackId="6" startPc="268436210"/>
+        <entry endPc="268437435" name="hy" stackId="7" startPc="268436210"/>
+        <entry endPc="268437435" name="zoneName" stackId="8" startPc="268436210"/>
+        <entry endPc="268437435" name="hrText" stackId="9" startPc="268436210"/>
+        <entry arg="true" endPc="268437579" name="hr" stackId="1" startPc="268437437"/>
+        <entry endPc="268437579" name="ratio" stackId="2" startPc="268437441"/>
+    </localVars>
+    <deviceInfo deviceVersion="3d0fb192a2cf01699aefd0f384af3f527e5885bd" partNumber="006-B3121-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="PowerZoneField"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="launcher_icon"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="55" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/HRZoneView" offset="118" parentId="globals" symbolId="HRZoneView" type="class"/>
+        <dataEntry label="globals/Rez" offset="269" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/HRZoneApp" offset="316" parentId="globals" symbolId="HRZoneApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="371" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="410" parentId="Rez" symbolId="Strings" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435475" name="&lt;init&gt;" parent="HRZoneView" startPc="268435457">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435499" name="&lt;init&gt;" parent="Rez" startPc="268435476">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435518" name="&lt;init&gt;" parent="HRZoneApp" startPc="268435500">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435601" name="compute" parent="HRZoneView" startPc="268435519">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435744" name="getHRZoneColor" parent="HRZoneView" startPc="268435602">
+            <param id="hr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435945" name="updateRollingHr" parent="HRZoneView" startPc="268435745">
+            <param id="currentHr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436180" name="initialize" parent="HRZoneView" startPc="268435946">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436205" name="getContrastTextColor" parent="HRZoneView" startPc="268436181">
+            <param id="bgColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437436" name="onUpdate" parent="HRZoneView" startPc="268436206">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437579" name="getHRZoneName" parent="HRZoneView" startPc="268437437">
+            <param id="hr"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437618" name="getInitialView" parent="HRZoneApp" startPc="268437580">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437639" name="initialize" parent="HRZoneApp" startPc="268437619">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

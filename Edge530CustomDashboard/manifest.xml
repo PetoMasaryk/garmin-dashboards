@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iq:manifest xmlns:iq="http://www.garmin.com/xml/connectiq" version="3">
+    <iq:application id="7a7f2f4c6b8d4e17a0c1d5e9f3b2c601" type="datafield" name="@Strings.AppName" entry="Edge530DashboardApp" minApiLevel="3.3.0" launcherIcon="@Drawables.LauncherIcon">
+        <iq:products>
+            <iq:product id="edge530"/>
+        </iq:products>
+        <iq:permissions>
+            <iq:uses-permission id="UserProfile"/>
+        </iq:permissions>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+        <iq:barrels/>
+    </iq:application>
+</iq:manifest>
